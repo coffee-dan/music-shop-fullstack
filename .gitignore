@@ -1,5 +1,8 @@
 # \TODO need to get SQL ignores
 
+# clutter
+_clutter/
+
 # Recommended Java ignores
 # Compiled class file
 *.class

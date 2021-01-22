@@ -1,0 +1,21 @@
+-- Drop Script
+-- This will drop all tables from database. Nonreversable action.
+-- It is understood that this would never be used in production, this was
+-- created for testing purposes to easily get back to the database starting 
+-- point.
+
+DROP TABLE F18_17_HAS;
+DROP TABLE F18_17_BUYS_FROM;
+DROP TABLE F18_17_SELLS_TO;
+DROP TABLE F18_17_EMPLOYEE_CONTACT_INFO;
+DROP TABLE F18_17_CUSTOMER_CONTACT_INFO;
+DROP TABLE F18_17_CLERK;
+DROP TABLE F18_17_HOURS_WORKED;
+DROP TABLE F18_17_STORE;
+DROP TABLE F18_17_STORE_MANAGER;
+DROP TABLE F18_17_ALBUM;
+DROP TABLE F18_17_EMPLOYEE;
+DROP TABLE F18_17_SUPPLIER;
+DROP TABLE F18_17_INDIVIDUAL;
+DROP TABLE F18_17_CUSTOMER;
+PURGE RECYCLEBIN;
