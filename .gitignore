@@ -16,6 +16,16 @@ _clutter/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Netbeans
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
 # Package Files #
 *.jar
 *.war

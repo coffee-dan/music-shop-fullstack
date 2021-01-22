@@ -1,6 +1,5 @@
 -- Ad-hoc queries
 
-
 prompt Tablulate the number of albums that each store and the whole company have in stock, then 
 prompt calculate the value of these albums.
 SELECT
